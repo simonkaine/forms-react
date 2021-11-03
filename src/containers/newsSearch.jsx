@@ -11,7 +11,7 @@ class NewsSearch extends React.Component {
 
     render() { 
         const { loading, search, articles } = this.state;
-        if (loading) return <h1>LOADING!...!!!....!!!!!!...!!!!!!</h1>
+        if (loading) return <h1>LOADING!!!...</h1>
         return (
             <>
             
