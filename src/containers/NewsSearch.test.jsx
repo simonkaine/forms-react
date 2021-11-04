@@ -18,6 +18,5 @@ describe('Shows news articles', () => {
         // 3. snapshot for search
 
         // behavior test - on changing search refetch articles
-
     })
 })
