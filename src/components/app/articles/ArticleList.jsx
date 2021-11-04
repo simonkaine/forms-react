@@ -13,7 +13,7 @@ export default function ArticleList({ articles }) {
             <ArticleDetails title={title} author={author} />
         </li>
     ));
-    return <ul aria-label="articles">{articleList}</ul>;
+    return <ul aria-label="list">{articleList}</ul>;
 }
 
 ArticleList.PropTypes = {

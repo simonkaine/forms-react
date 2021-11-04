@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
-import { fetchNews } from '../services/fetchNews';
+import { fetchNews, fetchNewsArticle } from '../services/fetchNews';
 import ArticleList from '../components/app/articles/articleList';
 import Search from '../components/app/articles/search';
+import ArticleDetails from '../components/app/articles/articleDetails';
 
 class NewsSearch extends React.Component {
     state = {search: '', loading: true, articles: []}
@@ -20,6 +21,8 @@ class NewsSearch extends React.Component {
     this.setState({ loading: true });
     // fetch the latest search input/submit??? 
     // <<<
+    const articles = await fetchNewsArticle(this.state.search);
+    this.setState({ articles, loading: false });
   };
 
     render() { 

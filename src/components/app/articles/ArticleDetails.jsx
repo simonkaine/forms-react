@@ -9,7 +9,9 @@ export default function ArticleDetails({ title, author}) {
     return (
         <figure>
             <figcaption>
-                {title} by {author}
+                <h2>Article Title: {title}</h2>
+                <h3>By: {author}</h3>
+                <hr></hr>
             </figcaption>
         </figure>
     );
