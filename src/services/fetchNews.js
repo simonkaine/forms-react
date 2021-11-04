@@ -5,3 +5,5 @@ export const fetchNews = async () => {
     return newsArticles.articles;
   };
   
+// Add another fetch function here for single article pull?
+// ..need this for handleSubmit?
