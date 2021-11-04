@@ -16,7 +16,7 @@ export default function ArticleList({ articles }) {
     return <ul aria-label="list">{articleList}</ul>;
 }
 
-ArticleList.PropTypes = {
+ArticleList.propTypes = {
     articles: PropTypes.arrayOf(
         PropTypes.shape({
         title: PropTypes.string.isRequired,

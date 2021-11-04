@@ -1,0 +1,158 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Shows news articles Should display a list from news articles 1`] = `
+<ul
+  aria-label="list"
+>
+  <li>
+    <figure>
+      <figcaption>
+        <h2>
+          Article Title: 
+          Theodore Tewksbury to take over as Velodyne CEO
+        </h2>
+        <h3>
+          By: 
+          Aria Alamalhodaei
+        </h3>
+        <hr />
+      </figcaption>
+    </figure>
+  </li>
+  <li>
+    <figure>
+      <figcaption>
+        <h2>
+          Article Title: 
+          Mark Cuban and former Oculus CEO back 3D e-commerce startup Vntana
+        </h2>
+        <h3>
+          By: 
+          Lucas Matney
+        </h3>
+        <hr />
+      </figcaption>
+    </figure>
+  </li>
+  <li>
+    <figure>
+      <figcaption>
+        <h2>
+          Article Title: 
+          Twitter now lets you tune into Spaces without an account via direct links
+        </h2>
+        <h3>
+          By: 
+          Aisha Malik
+        </h3>
+        <hr />
+      </figcaption>
+    </figure>
+  </li>
+  <li>
+    <figure>
+      <figcaption>
+        <h2>
+          Article Title: 
+          Push it jumps to No. 1 on App Store promising a way to send push notifications to friends
+        </h2>
+        <h3>
+          By: 
+          Sarah Perez
+        </h3>
+        <hr />
+      </figcaption>
+    </figure>
+  </li>
+  <li>
+    <figure>
+      <figcaption>
+        <h2>
+          Article Title: 
+          What does Zillow’s exit tell us about the health of the iBuying market?
+        </h2>
+        <h3>
+          By: 
+          Ryan Lawler
+        </h3>
+        <hr />
+      </figcaption>
+    </figure>
+  </li>
+  <li>
+    <figure>
+      <figcaption>
+        <h2>
+          Article Title: 
+          Google Cloud's $1B investment in CME Group part of long-term infrastructure services deal
+        </h2>
+        <h3>
+          By: 
+          Ron Miller
+        </h3>
+        <hr />
+      </figcaption>
+    </figure>
+  </li>
+  <li>
+    <figure>
+      <figcaption>
+        <h2>
+          Article Title: 
+          Rivian hit with gender discrimination lawsuit that alleges toxic 'bro culture'
+        </h2>
+        <h3>
+          By: 
+          Kirsten Korosec
+        </h3>
+        <hr />
+      </figcaption>
+    </figure>
+  </li>
+  <li>
+    <figure>
+      <figcaption>
+        <h2>
+          Article Title: 
+          Uber squeaks tiny adjusted profit in Q3 despite $2.4B net loss
+        </h2>
+        <h3>
+          By: 
+          Alex Wilhelm
+        </h3>
+        <hr />
+      </figcaption>
+    </figure>
+  </li>
+  <li>
+    <figure>
+      <figcaption>
+        <h2>
+          Article Title: 
+          Studio behind 'early access' crypto game Blankos Block Party banks monster $1.25B valuation from a16z
+        </h2>
+        <h3>
+          By: 
+          Lucas Matney
+        </h3>
+        <hr />
+      </figcaption>
+    </figure>
+  </li>
+  <li>
+    <figure>
+      <figcaption>
+        <h2>
+          Article Title: 
+          Goodly, focused on student loan repayment as an employee benefit, finds tailwinds
+        </h2>
+        <h3>
+          By: 
+          Connie Loizos
+        </h3>
+        <hr />
+      </figcaption>
+    </figure>
+  </li>
+</ul>
+`;

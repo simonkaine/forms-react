@@ -17,7 +17,7 @@ export default function ArticleDetails({ title, author}) {
     );
 }
 
-ArticleDetails.PropTypes = {
+ArticleDetails.propTypes = {
     title: PropTypes.string.isRequired,
     author: PropTypes.string.isRequired,
 };

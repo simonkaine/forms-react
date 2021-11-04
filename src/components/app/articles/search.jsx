@@ -18,7 +18,7 @@ export default function Search({ search, onSubmit, onChange }) {
         </form>
     )
 }
-Search.PropTypes = {
+Search.propTypes = {
     search: PropTypes.string,
     onSubmit: PropTypes.func,
     onChange: PropTypes.func

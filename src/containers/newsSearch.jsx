@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { fetchNews, fetchNewsArticle } from '../services/fetchNews';
 import ArticleList from '../components/app/articles/articleList';
-import Search from '../components/app/articles/search';
+import Search from '../components/app/articles/Search';
 import ArticleDetails from '../components/app/articles/articleDetails';
 
 class NewsSearch extends React.Component {
