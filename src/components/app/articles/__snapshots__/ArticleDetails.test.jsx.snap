@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for single article Should render single article snapshot 1`] = `
+<DocumentFragment>
+  <figure>
+    <figcaption>
+      <h2>
+        Article Title: What does Zillow’s exit tell us about the health of the iBuying market?
+      </h2>
+      <h3>
+        By: Ryan Lawyer
+      </h3>
+      <hr />
+    </figcaption>
+  </figure>
+</DocumentFragment>
+`;

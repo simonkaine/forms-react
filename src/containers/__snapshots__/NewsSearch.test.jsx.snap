@@ -9,6 +9,21 @@ exports[`Shows news articles Should display a list from news articles 1`] = `
       <figcaption>
         <h2>
           Article Title: 
+          An accelerator and fund says it's giving away its voting rights to scientist founders: "They lose control"
+        </h2>
+        <h3>
+          By: 
+          Connie Loizos
+        </h3>
+        <hr />
+      </figcaption>
+    </figure>
+  </li>
+  <li>
+    <figure>
+      <figcaption>
+        <h2>
+          Article Title: 
           Daily Crunch: IBM managed IT services spinoff Kyndryl starts trading on NYSE
         </h2>
         <h3>
@@ -134,21 +149,6 @@ exports[`Shows news articles Should display a list from news articles 1`] = `
         <h3>
           By: 
           Alex Wilhelm
-        </h3>
-        <hr />
-      </figcaption>
-    </figure>
-  </li>
-  <li>
-    <figure>
-      <figcaption>
-        <h2>
-          Article Title: 
-          Studio behind 'early access' crypto game Blankos Block Party banks monster $1.25B valuation from a16z
-        </h2>
-        <h3>
-          By: 
-          Lucas Matney
         </h3>
         <hr />
       </figcaption>

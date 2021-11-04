@@ -14,7 +14,7 @@ export default function Search({ search, onSubmit, onChange }) {
                 value={search}
                 onChange={onChange}
                 ></input>
-            <button aria-label="see-article">Let's see it!</button>
+            <button aria-label="button">Let's see it!</button>
         </form>
     )
 }

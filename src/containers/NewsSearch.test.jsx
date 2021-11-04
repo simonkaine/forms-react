@@ -1,11 +1,8 @@
 import React from 'react';
 import NewsSearch from './NewsSearch';
 import { render, screen } from '@testing-library/react';
+// import ArticleDetails from '../components/app/articles/articleDetails';
 
-const testArticle = {
-    author: "Ryan Lawyer", 
-    title: "What does Zillow’s exit tell us about the health of the iBuying market?"
-};
 
 describe('Shows news articles', () => {
     it('Should display a list from news articles', async () => {
@@ -17,6 +14,8 @@ describe('Shows news articles', () => {
         // 1. on screen find the html match for 'list' & expect list snapshot 
         const articlesList = await screen.findByRole('list', { name: 'list' }) 
         expect(articlesList).toMatchSnapshot();
+
+        // 3. snapshot for search
 
         // behavior test - on changing search refetch articles
 
