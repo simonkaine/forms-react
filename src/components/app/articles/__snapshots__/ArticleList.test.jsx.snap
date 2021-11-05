@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for articles array Should render articles array 1`] = `
+<DocumentFragment>
+  <ul
+    aria-label="list"
+  >
+    <li>
+      <figure>
+        <figcaption>
+          <h2>
+            Article Title: What does Zillow’s exit tell us about the health of the iBuying market?
+          </h2>
+          <h3>
+            By: Ryan Lawyer
+          </h3>
+          <hr />
+        </figcaption>
+      </figure>
+    </li>
+    <li>
+      <figure>
+        <figcaption>
+          <h2>
+            Article Title: An accelerator and fund says it's giving away its voting rights to scientist founders: "They lose control"
+          </h2>
+          <h3>
+            By: Connie Loizos
+          </h3>
+          <hr />
+        </figcaption>
+      </figure>
+    </li>
+  </ul>
+</DocumentFragment>
+`;
