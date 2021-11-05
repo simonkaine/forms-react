@@ -9,7 +9,7 @@ exports[`Shows news articles Should display a list from news articles 1`] = `
       <figcaption>
         <h2>
           Article Title: 
-          An accelerator and fund says it's giving away its voting rights to scientist founders: "They lose control"
+          An inclusive new D2C beauty platform secures $3 million in funding -- and a supercharged offline strategy
         </h2>
         <h3>
           By: 
@@ -24,7 +24,82 @@ exports[`Shows news articles Should display a list from news articles 1`] = `
       <figcaption>
         <h2>
           Article Title: 
-          Daily Crunch: IBM managed IT services spinoff Kyndryl starts trading on NYSE
+          Appetiser's co-founders discuss building client relationships and getting to MVP
+        </h2>
+        <h3>
+          By: 
+          Anna Heim
+        </h3>
+        <hr />
+      </figcaption>
+    </figure>
+  </li>
+  <li>
+    <figure>
+      <figcaption>
+        <h2>
+          Article Title: 
+          Cruise lays out its plan for 'how' it will make robotaxis a reality
+        </h2>
+        <h3>
+          By: 
+          Rebecca Bellan
+        </h3>
+        <hr />
+      </figcaption>
+    </figure>
+  </li>
+  <li>
+    <figure>
+      <figcaption>
+        <h2>
+          Article Title: 
+          IAB Europe says it's expecting to be found in breach of GDPR
+        </h2>
+        <h3>
+          By: 
+          Natasha Lomas
+        </h3>
+        <hr />
+      </figcaption>
+    </figure>
+  </li>
+  <li>
+    <figure>
+      <figcaption>
+        <h2>
+          Article Title: 
+          US government offers $10M bounty for DarkSide ransomware hackers
+        </h2>
+        <h3>
+          By: 
+          Carly Page
+        </h3>
+        <hr />
+      </figcaption>
+    </figure>
+  </li>
+  <li>
+    <figure>
+      <figcaption>
+        <h2>
+          Article Title: 
+          Rent the Runway co-founder Jenny Fleiss and Volition Capital's Larry Cheng talk early-stage fundraising on TechCrunch Live
+        </h2>
+        <h3>
+          By: 
+          Jordan Crook
+        </h3>
+        <hr />
+      </figcaption>
+    </figure>
+  </li>
+  <li>
+    <figure>
+      <figcaption>
+        <h2>
+          Article Title: 
+          VCs are racing to pay more to get smaller pieces of less profitable companies
         </h2>
         <h3>
           By: 
@@ -39,11 +114,11 @@ exports[`Shows news articles Should display a list from news articles 1`] = `
       <figcaption>
         <h2>
           Article Title: 
-          Theodore Tewksbury to take over as Velodyne CEO
+          Apple and Amazon ML/AI leads to speak on accessibility at Sight Tech Global 2021
         </h2>
         <h3>
           By: 
-          Aria Alamalhodaei
+          Ned Desmond
         </h3>
         <hr />
       </figcaption>
@@ -54,11 +129,11 @@ exports[`Shows news articles Should display a list from news articles 1`] = `
       <figcaption>
         <h2>
           Article Title: 
-          Mark Cuban and former Oculus CEO back 3D e-commerce startup Vntana
+          Guardian's Collective wants to make parenting easier, or at least less alone
         </h2>
         <h3>
           By: 
-          Lucas Matney
+          Natasha Mascarenhas
         </h3>
         <hr />
       </figcaption>
@@ -69,82 +144,7 @@ exports[`Shows news articles Should display a list from news articles 1`] = `
       <figcaption>
         <h2>
           Article Title: 
-          Twitter now lets you tune into Spaces without an account via direct links
-        </h2>
-        <h3>
-          By: 
-          Aisha Malik
-        </h3>
-        <hr />
-      </figcaption>
-    </figure>
-  </li>
-  <li>
-    <figure>
-      <figcaption>
-        <h2>
-          Article Title: 
-          Push it jumps to No. 1 on App Store promising a way to send push notifications to friends
-        </h2>
-        <h3>
-          By: 
-          Sarah Perez
-        </h3>
-        <hr />
-      </figcaption>
-    </figure>
-  </li>
-  <li>
-    <figure>
-      <figcaption>
-        <h2>
-          Article Title: 
-          What does Zillow’s exit tell us about the health of the iBuying market?
-        </h2>
-        <h3>
-          By: 
-          Ryan Lawler
-        </h3>
-        <hr />
-      </figcaption>
-    </figure>
-  </li>
-  <li>
-    <figure>
-      <figcaption>
-        <h2>
-          Article Title: 
-          Google Cloud's $1B investment in CME Group part of long-term infrastructure services deal
-        </h2>
-        <h3>
-          By: 
-          Ron Miller
-        </h3>
-        <hr />
-      </figcaption>
-    </figure>
-  </li>
-  <li>
-    <figure>
-      <figcaption>
-        <h2>
-          Article Title: 
-          Rivian hit with gender discrimination lawsuit that alleges toxic 'bro culture'
-        </h2>
-        <h3>
-          By: 
-          Kirsten Korosec
-        </h3>
-        <hr />
-      </figcaption>
-    </figure>
-  </li>
-  <li>
-    <figure>
-      <figcaption>
-        <h2>
-          Article Title: 
-          Uber squeaks tiny adjusted profit in Q3 despite $2.4B net loss
+          HashiCorp's IPO filing reveals a growing business, but at a slower pace
         </h2>
         <h3>
           By: 

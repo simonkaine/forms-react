@@ -1,5 +1,6 @@
 import React from 'react';
-import { render, screen } from '@testing-library/react';
+import { render, screen, waitFor } from '@testing-library/react';
+import userEvent from '@testing-library/user-event';
 import NewsSearch from './NewsSearch.jsx';
 // import ArticleDetails from '../components/app/articles/articleDetails';
 
@@ -15,8 +16,21 @@ describe('Shows news articles', () => {
         const articlesList = await screen.findByRole('list', { name: 'list' }) 
         expect(articlesList).toMatchSnapshot();
 
-        // 3. snapshot for search
+        // behavior tests - on changing search refetch articles >>>
+        const Input = await screen.findByLabelText('Search');
+        userEvent.type(Input, 'discuss');
 
-        // behavior test - on changing search refetch articles
-    })
-})
+        const submitBtn = await screen.findByRole('button', {
+            name: 'button',
+          });
+          userEvent.click(submitBtn);
+
+        // wait for those results ^^^
+        return waitFor(() => {
+            const article = screen.getAllByText('discuss', {
+            exact: false, 
+        });
+        expect(article).toHaveLength(1);
+    });
+  });
+});
