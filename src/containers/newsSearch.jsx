@@ -1,8 +1,7 @@
-import React, { Component } from 'react'
-import { fetchNews, fetchNewsArticle } from '../services/fetchNews';
-import ArticleList from '../components/app/articles/articleList';
-import Search from '../components/app/articles/Search';
-import ArticleDetails from '../components/app/articles/articleDetails';
+import React from 'react'
+import { fetchNews, fetchNewsArticle } from '../services/fetchNews.js';
+import ArticleList from '../components/app/articles/articleList.jsx';
+import Search from '../components/app/articles/Search.jsx';
 
 class NewsSearch extends React.Component {
     state = {search: '', loading: true, articles: []}

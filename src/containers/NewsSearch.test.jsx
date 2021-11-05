@@ -1,5 +1,5 @@
 import React from 'react';
-import NewsSearch from './NewsSearch';
+import NewsSearch from './NewsSearch.jsx';
 import { render, screen } from '@testing-library/react';
 // import ArticleDetails from '../components/app/articles/articleDetails';
 

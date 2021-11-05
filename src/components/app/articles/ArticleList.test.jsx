@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import ArticleList from './articleList';
+import ArticleList from './articleList.jsx';
 
 const testArticle = [{
     author: "Ryan Lawyer", 

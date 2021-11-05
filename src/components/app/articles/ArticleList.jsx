@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import ArticleDetails from './articleDetails';
+import ArticleDetails from './articleDetails.jsx';
 
 // import ArticleDetails & propTypes
 // export a function that is ArticleList and takes in articles
