@@ -1,5 +1,5 @@
 export const fetchNews = async () => {
-    const res = await fetch(`https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=${process.env.NEWS_KEY}`);
+    const res = await fetch(`https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=${process.env.REACT_APP_NEWS_KEY}`);
     const newsArticles = await res.json();
     console.log('News Articles', newsArticles);
     return newsArticles.articles;
@@ -9,7 +9,7 @@ export const fetchNews = async () => {
 // ..need this for handleSubmit?
 
 export const fetchNewsArticle = async (search) => {
-  const res = await fetch(`https://newsapi.org/v2/top-headlines?sources=techcrunch&q=${search}&apiKey=${process.env.NEWS_KEY}`)
+  const res = await fetch(`https://newsapi.org/v2/top-headlines?sources=techcrunch&q=${search}&apiKey=${process.env.REACT_APP_NEWS_KEY}`)
   const newsArticle = await res.json();
   return newsArticle.articles;
 };
