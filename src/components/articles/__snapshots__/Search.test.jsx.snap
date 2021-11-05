@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for search input Should test for search 1`] = `
+<DocumentFragment>
+  <form>
+    <label
+      for="search"
+    >
+      Search
+    </label>
+    <input
+      id="search"
+      name="search"
+      type="text"
+      value="discuss"
+    />
+    <button
+      aria-label="button"
+    >
+      Let's see it!
+    </button>
+  </form>
+</DocumentFragment>
+`;

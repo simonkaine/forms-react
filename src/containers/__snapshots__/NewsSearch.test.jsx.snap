@@ -9,6 +9,21 @@ exports[`Shows news articles Should display a list from news articles 1`] = `
       <figcaption>
         <h2>
           Article Title: 
+          All systems go: Buy your pass to TC Sessions: Space 2021
+        </h2>
+        <h3>
+          By: 
+          Marquise Foster
+        </h3>
+        <hr />
+      </figcaption>
+    </figure>
+  </li>
+  <li>
+    <figure>
+      <figcaption>
+        <h2>
+          Article Title: 
           An inclusive new D2C beauty platform secures $3 million in funding -- and a supercharged offline strategy
         </h2>
         <h3>
@@ -134,21 +149,6 @@ exports[`Shows news articles Should display a list from news articles 1`] = `
         <h3>
           By: 
           Natasha Mascarenhas
-        </h3>
-        <hr />
-      </figcaption>
-    </figure>
-  </li>
-  <li>
-    <figure>
-      <figcaption>
-        <h2>
-          Article Title: 
-          HashiCorp's IPO filing reveals a growing business, but at a slower pace
-        </h2>
-        <h3>
-          By: 
-          Alex Wilhelm
         </h3>
         <hr />
       </figcaption>
