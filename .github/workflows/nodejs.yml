@@ -16,3 +16,4 @@ jobs:
     - run: npm test
       env:
         CI: true
+        NEWS_KEY: ${{secrets.NEWS_KEY}}
